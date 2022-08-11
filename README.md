@@ -1,7 +1,7 @@
 # amplify-flip-rip
 Serverless, full-stack personal site using AWS Amplify. This deprecates former personal site repo. Keeping that up to retain bespoke devops work (nginx, etc.).
 
-[See it live!](https://master.d2nqnxtyleq1gm.amplifyapp.com/)
+[See staging live!](https://master.d2nqnxtyleq1gm.amplifyapp.com/)
 
 # Prerequisites
 Not going to get too detailed here, these are just the steps you need to do first. Of course, you can skip any that you've already done.
