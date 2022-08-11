@@ -10,6 +10,17 @@
       "StackName": "amplify-amplifyfliprip-dev-224818",
       "StackId": "arn:aws:cloudformation:us-east-1:991875572253:stack/amplify-amplifyfliprip-dev-224818/0cf36900-1920-11ed-b010-12c31849f089",
       "AmplifyAppId": "d2nqnxtyleq1gm"
+    },
+    "categories": {
+      "auth": {
+        "amplifyflipripbb46f580": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2nqnxtyleq1gm",
+          "type": "cicd"
+        }
+      }
     }
   }
 }

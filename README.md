@@ -35,4 +35,11 @@ Not going to get too detailed here, these are just the steps you need to do firs
 6. Sign up for AWS Account
 
 # AWS Basic Tutorial
+Pre-tutorial notes:
+    - CI/CD is pretty nifty & easy to setup. I went that route, personally. You don't have to, the tutorial uses "Manual." But it's not hard to do the CI/CD, which is nifty.
+    - When you get to the bit where you do "amplify add hosting" and the browser opens, you'll see a bit that says "edit build settings." This is a good time to specify your desired python version. The default is 3.7, you may want to upgrade it to 3.8 or 3.9. [Instructions here](https://github.com/aws-amplify/amplify-hosting/blob/main/FAQ.md#how-do-i-run-amplify-functions-with-python-runtime) per comment on Jan 21, 2021 in [this original GitHub issue thread](https://github.com/aws-amplify/amplify-hosting/issues/595). If it doesn't let you edit build settings upon creation, you can do it right after, it's OK. I'm currently getting a bug that doesn't let me edit it at build, so no worries if you have the same issue.
+
 Let's follow an [easy AWS tutorial](https://docs.amplify.aws/start/getting-started/data-model/q/integration/react/) to setup the basics of our app. This will continue to serve as a useful reference. Recommend revisiting daily for the first few weeks. This tutorial will give us: React Frontend, GraphQL API, Authentication. Everything powered by Amplify.
+
+## Bugs I Encountered
+- https://itsmycode.com/error-digital-envelope-routines-unsupported/
