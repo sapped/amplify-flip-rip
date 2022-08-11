@@ -1,5 +1,7 @@
 # amplify-flip-rip
-Serverless, full-stack personal site using AWS Amplify. This deprecates former personal site repo. Keeping that up to retain bespoke devops work (nginx, etc.)
+Serverless, full-stack personal site using AWS Amplify. This deprecates former personal site repo. Keeping that up to retain bespoke devops work (nginx, etc.).
+
+[See it live!](https://master.d2nqnxtyleq1gm.amplifyapp.com/)
 
 # Prerequisites
 Not going to get too detailed here, these are just the steps you need to do first. Of course, you can skip any that you've already done.
@@ -33,6 +35,7 @@ Not going to get too detailed here, these are just the steps you need to do firs
  sudo add-apt-repository 'deb https://apt.corretto.aws stable main'`
     - ` sudo apt-get update; sudo apt-get install -y java-11-amazon-corretto-jdk`
 6. Sign up for AWS Account
+7. Follow the AWS Basic Tutorial, per below.
 
 # AWS Basic Tutorial
 Pre-tutorial notes:
