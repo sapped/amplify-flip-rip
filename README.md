@@ -1,21 +1,23 @@
 # amplify-flip-rip
-Serverless, full-stack personal site using AWS Amplify. This deprecates former personal site repo. Keeping that up to retain bespoke devops work (nginx, etc.).
+Serverless, full-stack personal site using AWS Amplify. This deprecates former personal site repo. Keeping that up to retain bespoke devops work (nginx, etc.). Most of this was coded on Ubuntu on WSL2, though some was also done on a macbook. Code may change (such as nvm install) if you're running on a Macbook, since the below is mostly assuming you're on Ubuntu 20.04.
 
 [See staging live!](https://master.d2nqnxtyleq1gm.amplifyapp.com/)
 
 # Prerequisites
 Not going to get too detailed here, these are just the steps you need to do first. Of course, you can skip any that you've already done.
 1. Install nvm [(node version manager)](https://github.com/nvm-sh/nvm)
-    - $ cd ~
-    - $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    - [Mac instructions here](https://tecadmin.net/install-nvm-macos-with-homebrew/), otherwise Ubuntu instructions
+    - `$ cd ~`
+    - `$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
     - restart terminal (exit, reopen)
     - `nvm -v`
     - "0.39.1"
 2. Install node.js
     - `nvm install node`
+    - `node -v`
     - "now using node v18.7.0"
 3. Install AWS CLI
-    - [details in this tutorial](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+    - [Details in this tutorial (commands below pasted for Linux, though MacOS also listed)](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
     - `sudo apt-get update`
     - `sudo apt-get upgrade`
     - `sudo apt install unzip`
