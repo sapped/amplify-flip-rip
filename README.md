@@ -34,7 +34,7 @@ Not going to get too detailed here, these are just the steps you need to do firs
 5. Install Amazon Corretto
     - [Amazon Corretto (Java package) install steps here, for amplify mock api command](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/generic-linux-install.html)
     - `wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - 
- sudo add-apt-repository 'deb https://apt.corretto.aws stable main'`
+ sudo add-apt-repository 'deb https://apt.corretto.aws stable main'` (if this doesnt work, just copy-paste command from the tutorial above)
     - ` sudo apt-get update; sudo apt-get install -y java-11-amazon-corretto-jdk`
 6. Sign up for AWS Account
 7. Follow the AWS Basic Tutorial, per below.
