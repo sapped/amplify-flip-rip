@@ -29,8 +29,8 @@ Not going to get too detailed here, these are just the steps you need to do firs
     - "aws-cli/2.7.21 Python/3.9.11 Linux/5.10.16.3-microsoft-standard-WSL2 exe/x86_64.ubuntu.20 prompt/off"
     - `rm -rf awscliv2.zip`
 4. Install Amplify CLI
-    - Per easy AWS tutorial linked below
     - `npm install -g @aws-amplify/cli`
+    - ^ command found in the "easy tutorial" that we work through below, more details there if you want to dig in (not sure why you would lol)
 5. Install Amazon Corretto
     - [Amazon Corretto (Java package) install steps here, for amplify mock api command](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/generic-linux-install.html)
     - `wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - 
@@ -48,3 +48,56 @@ Let's follow an [easy AWS tutorial](https://docs.amplify.aws/start/getting-start
 
 ## Bugs I Encountered
 - https://itsmycode.com/error-digital-envelope-routines-unsupported/
+
+# Invoicing App
+Simple app to generate and track invoices
+
+## Data Model
+
+Cover Message
+- Body
+- Job name
+
+Freelancer Details
+- Image Logo
+- Freelancer Name
+- Freelancer Address
+- Freelancer Phone
+
+Customer Details
+- Customer ID
+- Customer Name
+- Customer Address
+- Customer Phone
+- Customer Email
+- Customer Site
+
+Invoice Details
+- Invoice ID
+- Issuance date of invoice
+- Due date of invoice
+- Short Description, Terms of invoice (due on receipt, 30 days, etc.)
+- Check payable to
+- Zelle details
+- Direct deposit details
+
+Footer
+- COI notice ($7.5k min, etc.)
+- Description of late fees
+
+Description of Charges
+- List of Charges
+    - Date
+    - Description
+    - Quanitity
+    - Base Rate
+    - Multiplier
+    - Amount
+- Total
+- Payment Received
+- Balance Due
+
+## Features
+- Deposit big job auto-calculator (30% or 50% etc.)
+- Hourly for 8 hour OT
+- Hourly for 10 horu OT
